@@ -1,0 +1,9 @@
+<SentQuestion>
+
+
+時間：2021-10-08 23:11:06
+名前：test
+アドレス：hogehoge@example.ex
+種類：その他
+内容：お問い合わせテスト
+

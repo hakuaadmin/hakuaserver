@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    font-family:'Hiragino Kaku Gothic ProN';
+}
+
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.top-wrapper {
+    padding: 180px 0 100px 0;
+    background-image: url(../../tmp/top.png);
+    background-size: cover;
+    color: white;
+    text-align: center;
+}
+
+.top-wrapper h1 {
+    opacity: 0.7;
+    font-size: 45px;
+    letter-spacing: 5px;
+}
+
+.top-wrapper p {
+    opacity: 0.7;
+}
+
+.btn-wrapper {
+    margin: 20px 0;
+}
+
+.btn-wrapper p {
+    margin: 10px 0;
+}
+
+.discord {
+    background-color: #9370db;
+}
+
+.twitter {
+    background-color: #55acee;
+}
+
+.jms {
+    background-color: #556b2f;
+    margin-right: 10px;
+}
+
+.btn {
+    padding: 8px 24px;
+    color: white;
+    display: inline-block;
+    opacity: 0.8;
+    border-radius: 4px;
+}
+
+
+.btn:hover {
+    opacity: 1;
+}
+
+.fa {
+    margin-right: 5px;
+}
+
+header {
+    height: 65px;
+    width: 100%;
+    background-color: rgba(34, 49, 52, 0.9);
+    position: fixed;
+    top: 0;
+    z-index: 10;
+}
+
+.logo {
+    width: 65px;
+}
+
+.header-left {
+    float: left;
+}
+
+.header-left a {
+    float: right;
+    line-height: 65px;
+    padding: 0 25px;
+    margin-left: 5px;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.3);
+    display: block;
+}
+
+.header-right {
+    float: right;
+    background-color: rgba(255, 255, 255, 0.3);
+    transition: all 0.5s;
+}
+
+.header-right:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+}
+
+.header-right a {
+    line-height: 65px;
+    padding: 0 25px;
+    color: rgb(68, 68, 68);
+    display: block;
+}
+
+.return {
+    height: 45px;
+    width: 120px;
+    padding: 15px 25px;
+    margin-left: 60px;
+    color: #ccc;
+    background-color: #555;
+
+}
+
+.return:hover {
+    background-color: #333;
+}
+
+.intr-wrapper {
+    height: 500px;
+    padding-bottom: 80px;
+    background-color: #f7f7f7;
+    text-align: center;
+}
+
+.heading {
+    padding-top: 60px;
+    padding-bottom: 30px;
+    color: #5f5d60;
+}
+
+.heading h2 {
+    font-weight: normal;
+}
+
+.intr {
+    float: left;
+    width: 25%;
+}
+
+.intr-icon {
+    position: relative;
+}
+
+.intr img {
+    width: 200px;
+}
+
+.intr-icon p {
+    position: absolute;
+    top: 90px;
+    width: 100%;
+    color: white;
+}
+
+.txt-contents {
+    width: 80%;
+    display: inline-block;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #b3aeb5;
+}
+
+.heading h3 {
+    font-weight: normal;
+}
+
+.message-wrapper {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 80px;
+    text-align: center;
+}
+
+.message {
+    padding: 15px 40px;
+    background-color: #5dca88;
+    cursor: pointer;
+    box-shadow: 0 7px #1a7940;
+}
+
+.message:active {
+    position: relative;
+    top: 7px;
+    box-shadow: none;
+}
+
+.main {
+    min-width: 800px;
+}
+
+.sent-main {
+    min-width: 800px;
+    margin-top: 100px;
+    margin: auto;
+}
+
+.sent-spacer {
+    line-height: 200px;
+}
+
+.thanks-message {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 24px;
+}
+
+.display-contact {
+    width: 70%;
+    margin:30px;
+    padding: 50px;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.contact-form {
+    width: 70%;
+    margin: 60px auto;
+    padding: 50px;
+    background-color: #f6f6f6;
+    color: #333;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+
+.form-item {
+    padding: 20px 0 10px 0;
+    font-weight: bold;
+}
+
+input[type="text"] {
+    width: 30%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+}
+
+input[type="submit"] {
+    margin-top: 30px;
+    width: 30%;
+    border: 1px solid #5dca88;
+    border-radius: 4px;
+    padding: 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    font-size: 14px;
+    line-height: 1.4;
+    color: white;
+    background-color: #5cb85c;
+}
+
+textarea {
+    width: 90%;
+    height: 100px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    padding: 6px 12px;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+    font-size: 14px;
+    line-height: 1.4;
+    color: #555;
+}
+
+footer img {
+    width: 65px;
+}
+
+footer p {
+    color: #b3aeb5;
+    font-size: 15px;
+}
+
+.copyright {
+    color: #b3aeb5;
+    font-size: 12px;
+}
+
+footer {
+    text-align: center;
+    height: 100px;
+    width: 100%;
+    padding-top: 30px;
+    background-color: #555;
+}
+
+.rule-heading {
+    font-size: 40px;
+    color: #b22222;
+}
+
+.border{
+    border-bottom: 1px solid #ccc;
+}
